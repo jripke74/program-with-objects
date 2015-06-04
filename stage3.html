@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<head>
+	<title>Jeff's Notes</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="toc">
+	<h1>Table of Contents</h1>
+	<ul>
+		<li class="toc-lesson"><a href="#lesson-2-1">Lesson 2.1: Introduction to "Serious" 
+		Programming</a>
+			<ul>
+				<li><a href="#comp">Computer</a></li>
+				<li><a href="#program">Program</a></li>
+				<li><a href="#prolang">Programming Languages</a></li>
+				<li><a href="#interpreter">Interpreter</a></li>
+				<li><a href="#python">Python</a></li>
+				<li><a href="#grammer">Grammer</a></li>
+				<li><a href="#pythonexp">Python Expression</a></li>
+			</ul>
+		</li>
+		<li class="toc-lesson"><a href="#lesson-2-2">Lesson 2.2: Variables and Strings</a>
+			<uL>
+				<li><a href="#asignvariable">How do you assign a value to a variable 
+				in Python?</a></li>
+				<li><a href="#equals">What is the difference in the = in 
+				programming then in regular math?</a></li>
+				<li><a href="#variables">How can variables make you life easier 
+				as a programmer?</a></li>
+				<li><a href="#string">How is a string identified in Python?</a></li>
+				<li><a href="#stringfunct">What are some string functions/methods/procedures 
+				in Python?</a></li>
+			</ul>
+		</li>
+		<li class="toc-lesson"><a href="#lesson-2-3">Lesson 2.3: Input-&gt;Function-&gt;Output</a>
+			<uL>
+				<li><a href="#functions">What are functions?</a></li>
+				<li><a href="#howfunctions">How do you make and use a function?</a></li>
+				<li><a href="#funcandrepetition">How do functions help programmers avoid
+				repetition?</a></li>
+				<li><a href="#return">What is a return statement in a function?</a></li>
+			</ul>
+		</li>
+		<li class="toc-lesson"><a href="#lesson-2-4">Lesson 2.4: Control Flow & Loops: if and while</a>
+			<ul>
+				<li><a href="#if">What is an if Statements and how do if 
+				statements work?</a></li>
+				<li><a href="#while">What is a while statement and how does the
+				while statements work?</a></li>
+			</ul>
+		</li>
+		<li class="toc-lesson"><a href="#lesson-2-4">Lesson 2.5: Debugging</a>
+			<ul>
+				<li><a href="#debug">Five Strategies of Debugging</a></li>
+			</ul>
+		</li>
+		<li class="toc-lesson"><a href="#lesson-2-6">Lesson 2.6: Structured Data</a>
+			<ul>
+				<li><a href="#struct">Structured Data</a></li>
+				<li><a href="#mutability">Mutability</a></li>
+				<li><a href="#appendplus">The difference between append and 
+				+</a></li>
+			</ul>
+		</li>
+		<li class="toc-lesson"><a href="#lesson-3">Lesson 3: Program with Objects</a>
+			<ul>
+				<li><a href="#oop">OOP - Object Oriented Programming</a></li>
+				<li><a href="#terms">Important Terms</a></li>
+				<li><a href="#class">Classes</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="lesson">
+	<h2 id="lesson-2-1">Lesson 2.1: Introduction to Serious Programming</h2>
+	<div class="concept" id="comp">
+		<div class="concept-title">
+			Computer
+		</div>
+		<div class="concept-description">
+			<p>
+				Unlike a toaster that can basically do one thing toast bread 
+				pastries etc... Computers can do anything with programming. 
+				Without any programs computers are useless.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="program">
+		<div class="concept-title">
+			Program
+		</div>
+		<div class="concept-description">
+			<p>
+				Programs are what make a computer do stuff.
+			</p>
+			<p>
+				Think like a programmer: think procedurally, be an abstract 
+				thinker, be systems thinker, have technological empathy, and 
+				be a debugger.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="prolang">
+		<div class="concept-title">
+			Programming Languages
+		</div>
+		<div class="concept-description">
+			<p>
+				There are many different types of programming languages and the 
+				one we will be using is python. The reason why we do not use a 
+				language such as english or spanish is because of ambiguity and 
+				verbosity. Computers need precise step by step instruction to 
+				do what you want them to do.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="interpreter">
+		<div class="concept-title">
+			Interpreter
+		</div>
+		<div class="concept-description">
+			<p>
+				Python uses an interpreter to do what we want the program to do.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="python">
+		<div class="concept-title">
+			Python
+		</div>
+		<div class="concept-description">
+			<p>
+				Python is a high level language meaning they are closer to the 
+				human languages than a machine language.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="grammer">
+		<div class="concept-title">
+			Grammer
+		</div>
+		<div class="concept-description">
+			<p>
+				Python uses Backus Naur form. Where a non-terminal is like a 
+				noun, verb, object, subject etc... A terminal would be python, 
+				eat, etc...
+			</p>
+			<p>
+			
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="pythonexp">
+		<div class="concept-title">
+			Python Expresion
+		</div>
+		<div class="concept-description">
+			<p>
+				Python expresion can be in the form of 1 * 1, 1 - 4, 1+3 etc...
+				Using the Backus Naur form a non-terminal would be expression,
+				operator and the terminal would be 1, -, + () etc...
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-2-2">Lesson 2.2: Variables and Strings</h2>
+	<div class="concept" id="asignvariable">
+		<div class="concept-title">
+			How do you assign a value to a variable in Python?
+		</div>
+		<div class="concept-description">
+			<p>
+				Name = Expression
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="equals">
+		<div class="concept-title">
+			What is the difference in the = in programming then in regular math?
+		</div>
+		<div class="concept-description">
+			<p>
+				In programming the = is usually used to assign a value.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="variables">
+		<div class="concept-title">
+			How can variables make you life easier as a programmer?
+		</div>
+		<div class="concept-description">
+			<p>
+				There are many reasons to use variables here are a few: easier 
+				to identify what numbers mean in expression, making for easier 
+				to read code. Makes it so you can use that data in other places 
+				in your code.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="string">
+		<div class="concept-title">
+			How is a string identified in Python?
+		</div>
+		<div class="concept-description">
+			<p>
+				A string in Python is identified with single quotes 'string' or 
+				double quotes "string".
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="stringfunct">
+		<div class="concept-title">
+			What are some string functions/methods/procedures in Python?
+		</div>
+		<div class="concept-description">
+			<p>
+				Find is used to find the position of a character and returns 
+				the position number. <br>
+				&lt;string&gt;.find(&lt;string&gt;)<br>
+				ex1: 'string'.find('s') # this returns 0<br>
+				ex2: 'string'.find('g') # this returns 5<br>
+				ex3: 'string'.find('a') # returns -1 if it cannot find<br>
+				&lt;string&gt;.find(&lt;string&gt;,&lt;number&gt;)<br>
+				ex4: 'strings'.find('s',1) # starts the search at position 1 this returns 6<br>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-2-3">Lesson 2.3: Input-&gt;Function-&gt;Output</h2>
+	<div class="concept" id="functions">
+		<div class="concept-title">
+			What are functions?
+		</div>
+		<div class="concept-description">
+			<p>
+				Functions are blocks of code that allow the programmer to do 
+				particular job that can be done over and over...
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="howfunctions">
+		<div class="concept-title">
+			How do you make and use a function?
+		</div>
+		<div class="concept-description">
+			<p>
+				In Python you use the following format to make a function:<br>
+				<span style="color: blue;">def</span> name(par1, par2...):<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;par1 = par1 + par1<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;return par1<br>
+				To call a function you use the following:<br>
+				name(par1,par2)
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="funcandrepetition">
+		<div class="concept-title">
+			How do functions help programmers avoid repetition?
+		</div>
+		<div class="concept-description">
+			<p>
+				Functions are great because they only have to write them once 
+				and can reuse them over and over again throughout the program.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="return">
+		<div class="concept-title">
+			What is a return statement in a function?
+		</div>
+		<div class="concept-description">
+			<p>
+				The return statement in a function allows you to send something
+				to the program for future use.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-2-4">Lesson 2.4: Control Flow & Loops: if and while</h2>
+	<div class="concept" id="if">
+		<div class="concept-title">
+			 What is an if Statements and how do if statements work?
+		</div>
+		<div class="concept-description">
+			<p>
+				An if statement is a control that is either True or False. An if 
+				statemene helps you make decisions on what should or shouldn't be
+				done next. An if statement works by passing it in a value which 
+				can be a bolean value or and equation the evaluates to a bolean 
+				value.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="while">
+		<div class="concept-title">
+			What is a while statement and how does the while statements work?
+		</div>
+		<div class="concept-description">
+			<p>
+				A while statement allows to do something over and over until a 
+				certain condition is met. A while statement consist of a condition
+				or expression and a block of code to be executed until the condition
+				is met.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-2-4">Lesson 2.5: Debugging</h2>
+	<div class="concept" id="debug">
+		<div class="concept-title">
+			 Five Strategies of Debugging
+		</div>
+		<div class="concept-description">
+			<p>
+				<ol>
+					<li>Examine Error Messages</li>
+					<li>Work from a Working Example</li>
+					<li>Make Sure the Examples Work!</li>
+					<li>Check Intermediate Results</li>
+					<li>Keep and Compare Old Versions</li>
+				</ol>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-2-6">Lesson 2.6: Structure Data: Lists & For Loops</h2>
+	<div class="concept" id="structdata">
+		<div class="concept-title">
+			Structured Data
+		</div>
+		<div class="concept-description">
+			<p>
+				Structured data is important in programming it helps to keep data
+				in order and the ability to do more with it. You can use lists 
+				to store data and manipulate it.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="mutability">
+		<div class="concept-title">
+			Mutability
+		</div>
+		<div class="concept-description">
+			<p>
+				If an object is mutable it means it can be changed after it 
+				has been assigned. A list is mutable but a string is un-mutable.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="appendplus">
+		<div class="concept-title">
+			The difference between append and +
+		</div>
+		<div class="concept-description">
+			<p>
+				Append is method and will add a new element to the end of a 
+				list and + produces a new lest and puts the to list together.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-3">Lesson 3: Program with Objects</h2>
+	<div class="concept" id="oop">
+		<div class="concept-title">
+			OOP - Object Oriented Programming
+		</div>
+		<div class="concept-description">
+			<p>
+				OOP is based on object that can be used over and over. The 
+				ability to be able to write a blueprint(class) and then use that 
+				blueprint to duplicate objects. OOP makes it easier to reuse code 
+				and share with others.
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="terms">
+		<div class="concept-title">
+			Important Terms
+		</div>
+		<div class="concept-description">
+			<p>
+				There are many important terms in programming here are a few:
+				<dl>
+					<dt>abstraction</dt>
+						<dd>In programming abstraction is the ability to use a function
+						or method that already exist and create something from it. For 
+						example adding a movie to a website you can use a method from a
+						lets say a movie class to add that movie to the website. We do
+						not need the details of function/method to use it.</dd>
+					<dt>class</dt>
+						<dd>A class is like a blueprint and allows you to create multiple
+						objects.</dd>
+					<dt>instance</dt>
+						<dd>Creating an object from a class is an instance of that class.</dd>
+					<dt>constructor</dt>
+						<dd>In python a constructor (__init__) is used to construct/initialize
+						a class.</dd>
+					<dt>self</dt>
+						<dd>Is used when constructing a class instance.</dd>
+					<dt>instance variables</dt>
+						<dd>Are used to assign properties/fields to a class.</dd>
+					<dt>import</dt>
+						<dd>Is used to bring in code outside of that file to be used in that
+						 program.</dd>
+					<dt>method</dt>
+						<dd>Methods are functions in classes.</dd>
+					<dt>function</dt>
+						<dd>Is used to create a reusable code.</dd>
+					<dt>exception</dt>
+						<dd>When an error occurs in a method.</dd>
+					<dt>from</dt>
+						<dd>Used to get code at a particular location.</dd>
+					<dt>class variable</dt>
+						<dd>Are like constants that can be used by methods within that class.
+						They are usually all caps if they are constant.</dd>
+					<dt>inheritance</dt>
+						<dd>Is the ability to use all the methods from a particular class.</dd>
+					<dt>method overriding</dt>
+						<dd>Is when a child class uses a method with the same name and will override the 
+						parent method with that method.</dd>
+				</dl>
+			</p>
+		</div>
+	</div>
+	<div class="concept" id="class">
+		<div class="concept-title">
+			What is a class and what can they do?
+		</div>
+		<div class="concept-description">
+			<p>
+				A class allows you to re-use code. Like a blueprint you can reproduce 
+				many instances of it. It is what makes OOP so good. Classes are like 
+				databases that you can design them like tables and create
+				fields, like in the movie website we created.
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
